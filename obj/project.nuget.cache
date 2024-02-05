@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "GEG+ZWihPP5oevDWEoTNvfG0LzvYUyKE+SgNxNusPalJUxHB/ZT8THcwbBjI3ae+OzCOZyXCTvrSZuFWPXxwDA==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\INGENIERIA\\4toPart2\\IS2\\TrabajoIS\\TrabajoIS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xunit\\2.6.6\\xunit.2.6.6.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xunit.analyzers\\1.10.0\\xunit.analyzers.1.10.0.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xunit.assert\\2.6.6\\xunit.assert.2.6.6.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xunit.core\\2.6.6\\xunit.core.2.6.6.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xunit.extensibility.core\\2.6.6\\xunit.extensibility.core.2.6.6.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\xunit.extensibility.execution\\2.6.6\\xunit.extensibility.execution.2.6.6.nupkg.sha512"
+  ],
+  "logs": []
+}
