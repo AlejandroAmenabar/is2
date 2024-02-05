@@ -97,6 +97,7 @@ D:\Documents\INGENIERIA\4toPart2\IS2\TrabajoIS\TrabajoIS.Tests\obj\Debug\net8.0\
 D:\Documents\INGENIERIA\4toPart2\IS2\TrabajoIS\TrabajoIS.Tests\obj\Debug\net8.0\TrabajoIS.Tests.AssemblyInfoInputs.cache
 D:\Documents\INGENIERIA\4toPart2\IS2\TrabajoIS\TrabajoIS.Tests\obj\Debug\net8.0\TrabajoIS.Tests.AssemblyInfo.cs
 D:\Documents\INGENIERIA\4toPart2\IS2\TrabajoIS\TrabajoIS.Tests\obj\Debug\net8.0\TrabajoIS.Tests.csproj.CoreCompileInputs.cache
+D:\Documents\INGENIERIA\4toPart2\IS2\TrabajoIS\TrabajoIS.Tests\obj\Debug\net8.0\TrabajoIS.Tests.sourcelink.json
 D:\Documents\INGENIERIA\4toPart2\IS2\TrabajoIS\TrabajoIS.Tests\obj\Debug\net8.0\TrabajoIS.Tests.csproj.CopyComplete
 D:\Documents\INGENIERIA\4toPart2\IS2\TrabajoIS\TrabajoIS.Tests\obj\Debug\net8.0\TrabajoIS.Tests.dll
 D:\Documents\INGENIERIA\4toPart2\IS2\TrabajoIS\TrabajoIS.Tests\obj\Debug\net8.0\refint\TrabajoIS.Tests.dll
