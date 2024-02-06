@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documents\\INGENIERIA\\4toPart2\\IS2\\TrabajoIS\\TrabajoIS.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\INGENIERIA\\4toPart2\\IS2\\TrabajoIS\\TrabajoIS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\INGENIERIA\\4toPart2\\IS2\\TrabajoIS\\TrabajoIS.csproj",
+        "projectName": "TrabajoIS",
+        "projectPath": "D:\\Documents\\INGENIERIA\\4toPart2\\IS2\\TrabajoIS\\TrabajoIS.csproj",
+        "packagesPath": "C:\\Users\\Alejandro\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\INGENIERIA\\4toPart2\\IS2\\TrabajoIS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Xunit": {
+              "target": "Package",
+              "version": "[2.6.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
