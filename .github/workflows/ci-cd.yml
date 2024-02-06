@@ -39,4 +39,4 @@ jobs:
       # Paso 5: Ejecutar pruebas unitarias
       - name: Test
         run: dotnet test --no-build --verbosity normal
-        #working-directory: TrabajoIS
+        working-directory: TrabajoIS.Tests
