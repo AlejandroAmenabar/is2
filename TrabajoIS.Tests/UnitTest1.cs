@@ -12,8 +12,8 @@ public class CalculatorTests
     [Fact]
     public void Add_ReturnsCorrectResult()
     {
-        var result = _calculator.Add(5, 3);
-        Assert.Equal(8, result);
+        var result = _calculator.Add(5, 4);
+        Assert.Equal(9, result);
     }
 
     [Fact]

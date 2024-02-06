@@ -16,7 +16,7 @@ public class Program
     public static void Main()
     {
         Calculator calculator = new Calculator();
-        int result = calculator.Add(5, 3);
+        int result = calculator.Add(5, 4);
         Console.WriteLine("Addition result: " + result);
 
         result = calculator.Subtract(10, 4);
