@@ -10,7 +10,7 @@
         return a - b;
     }
 
-    public int division(int a, int b)
+    public int Division(int a, int b)
     {
         return a / b;
     }
@@ -27,7 +27,7 @@ public class Program
         result = calculator.Subtract(10, 4);
         Console.WriteLine("Subtraction result: " + result);
 
-        result = calculator.division(10, 2);
+        result = calculator.Division(10, 2);
         Console.WriteLine("Division result: " + result);
     }
 }
