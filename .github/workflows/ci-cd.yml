@@ -30,13 +30,13 @@ jobs:
       # Paso 3: Restaurar las dependencias del proyecto .NET
       - name: Install dependencies
         run: dotnet restore
-        working-directory: ./is2/TrabajoIS
+        #working-directory: TrabajoIS
       # Paso 4: Construir el proyecto sin restaurar dependencias (ya hecho en el paso 3)
       - name: Build
         run: dotnet build --no-restore
-        working-directory: ./is2/TrabajoIS
+        #working-directory: TrabajoIS
       
       # Paso 5: Ejecutar pruebas unitarias
       - name: Test
         run: dotnet test --no-build --verbosity normal
-        working-directory: TrabajoIS
+        #working-directory: TrabajoIS
