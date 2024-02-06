@@ -4,8 +4,8 @@ name: CI/CD Pipeline
 # Define los eventos que desencadenarán este flujo de trabajo
 on:
   # Ejecuta el flujo de trabajo en push a la rama "main"
-  #push:
-    #branches: [ main ]
+  push:
+    branches: [ main ]
     
   # Permite ejecutar manualmente este flujo de trabajo desde la interfaz de GitHub
   workflow_dispatch:
