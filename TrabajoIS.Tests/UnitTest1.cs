@@ -22,4 +22,11 @@ public class CalculatorTests
         var result = _calculator.Subtract(10, 4);
         Assert.Equal(6, result);
     }
+
+    [Fact]
+    public void Division_ReturnsCorrectResult()
+    {
+        var result = _calculator.Division(10, 2);
+        Assert.Equal(5, result);
+    }
 }
