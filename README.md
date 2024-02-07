@@ -44,12 +44,12 @@ Si las pruebas se ejecutan correctamente, el servidor de integración continua i
 
 Si la aplicación funciona correctamente en el entorno de prueba, el equipo de operaciones puede implementarla automáticamente en producción utilizando una herramienta de implementación.
 
-Mejores prácticas y recomendaciones
-Comenzar con un proyecto pequeño: Es recomendable comenzar con un proyecto pequeño para familiarizarse con CI/CD.
-Automatizar todo lo que sea posible: Automatizar tantas tareas como sea posible para agilizar el proceso de desarrollo.
-Utilizar herramientas de código abierto: Hay muchas herramientas de código abierto disponibles para CI/CD.
-Implementar un entorno de prueba: Es importante tener un entorno de prueba para probar los cambios de código antes de implementarlos en producción.
-Monitorizar el proceso: Es importante monitorizar el proceso de CI/CD para identificar y solucionar problemas.
+##### Mejores prácticas y recomendaciones
+* Comenzar con un proyecto pequeño: Es recomendable comenzar con un proyecto pequeño para familiarizarse con CI/CD.
+* Automatizar todo lo que sea posible: Automatizar tantas tareas como sea posible para agilizar el proceso de desarrollo.
+* Utilizar herramientas de código abierto: Hay muchas herramientas de código abierto disponibles para CI/CD.
+* Implementar un entorno de prueba: Es importante tener un entorno de prueba para probar los cambios de código antes de implementarlos en producción.
+* Monitorizar el proceso: Es importante monitorizar el proceso de CI/CD para identificar y solucionar problemas.
 
 ## Beneficios de implementar CI/CD
 **En el área de desarrollo:**
