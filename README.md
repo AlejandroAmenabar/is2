@@ -1,7 +1,7 @@
 # Trabajo de equiparación Ing. de Software 2
 ## Introduccion
 En este trabajo, explore la implementacion de practicas de Integracion Continua (CI) y Depliegue Continuo (CD).
-Utilizando el framework .NET cree un programa sencillo al que luego le agregue unos test unitarios con la herramienta xUnit, y luego a traves de GitHub Actions cree un pipeline que corriera los tests y el codigo al subir cambios al proyecto.
+Utilizando el framework .NET cree un programa sencillo al que luego le agregue unos test unitarios con la herramienta xUnit, y luego a traves de GitHub Actions cree un pipeline que corriera los tests y el codigo al subir cambios al proyecto. A continuacion podran ver el apoyo teorico sobre el tema desarrollado. 
 ## Desarrollo del Tema
 ### CI/CD
 En el pasado, el desarrollo de software era un proceso lento y manual. Los desarrolladores escribían código, lo probaban y luego lo implementaban en producción. Este proceso era propenso a errores y podía llevar mucho tiempo.
