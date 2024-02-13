@@ -1,7 +1,14 @@
 # Trabajo de equiparación Ing. de Software 2
 ## Introduccion
-En este trabajo, explore la implementacion de practicas de Integracion Continua (CI) y Depliegue Continuo (CD).
-Utilizando el framework .NET cree un programa sencillo al que luego le agregue unos test unitarios con la herramienta xUnit, y luego a traves de GitHub Actions cree un pipeline que corriera los tests y el codigo al subir cambios al proyecto. A continuacion podran ver el contenido teorico. 
+En el ámbito del desarrollo de software moderno, la adopción de prácticas de Integración Continua (CI), Entrega Continua (CD) y Despliegue Continuo (CDD) es fundamental para automatizar el ciclo de vida del desarrollo de software, garantizar la calidad del código y facilitar la entrega rápida de nuevas funcionalidades y correcciones a los usuarios finales. En este trabajo, me centré en la implementación de la práctica de Integración Continua (CI) utilizando .NET para crear un programa sencillo complementado con pruebas unitarias a través de la herramienta xUnit. Mediante GitHub Actions, configuré un pipeline de CI que compila el código, ejecuta pruebas unitarias y valida la integración del código con cada cambio subido al proyecto, siguiendo las mejores prácticas de CI.
+
+La configuración actual de mi proyecto soporta la Integración Continua (CI), preparando automáticamente los cambios de código para su despliegue mediante la compilación del software y la ejecución de pruebas. Sin embargo, para avanzar hacia la Entrega Continua (CD) y el Despliegue Continuo (CDD), sería necesario implementar pasos adicionales:
+
+- Para CD: Automatización del proceso de despliegue en un entorno de pruebas o producción mediante la integración de herramientas de despliegue que actúen en base a la aprobación manual o criterios específicos, garantizando que cada cambio validado esté listo para ser liberado en cualquier momento.
+
+- Para CDD: Configuración de despliegues automáticos para que todo cambio que supere todas las etapas de validación en el pipeline se libere a los usuarios finales sin intervención manual, eliminando así la necesidad de una decisión de despliegue explícita y acelerando la entrega de valor a los clientes.
+
+Este trabajo, por tanto, se enfoca en la exploración teórica de CI/CD y práctica de la Integración Continua (CI), demostrando cómo puede mejorar la calidad del software y optimizar el proceso de desarrollo. A continuación, se presentará el contenido teórico que respalda estas prácticas.
 ## Desarrollo del Tema
 ### CI/CD
 En el pasado, el desarrollo de software era un proceso lento y manual. Los desarrolladores escribían código, lo probaban y luego lo implementaban en producción. Este proceso era propenso a errores y podía llevar mucho tiempo.
@@ -90,10 +97,12 @@ CI/CD es una práctica moderna de desarrollo de software que ofrece muchos benef
 * "The Benefits of CI/CD" por Atlassian
 * "The Future of CI/CD" por Atlassian
 * "The Challenges of CI/CD" por Atlassian
+* "Continuous integration vs. delivery vs. deployment" por Atlassian
 * "How to Implement CI/CD" por Microsoft
 * "Why You Should Implement CI/CD" por Microsoft
 * "How to Overcome the Challenges of CI/CD" por Microsoft
 * "The Importance of CI/CD in Software Engineering" por Microsoft
+
 
 
 
