@@ -1,6 +1,6 @@
 # Trabajo de equiparación Ing. de Software 2
 ## Introduccion
-En el ámbito del desarrollo de software moderno, la adopción de prácticas de Integración Continua (CI), Entrega Continua (CD) y Despliegue Continuo (CDD) es fundamental para automatizar el ciclo de vida del desarrollo de software, garantizar la calidad del código y facilitar la entrega rápida de nuevas funcionalidades y correcciones a los usuarios finales. En este trabajo, me centré en la implementación de la práctica de Integración Continua (CI) utilizando .NET para crear un programa sencillo complementado con pruebas unitarias a través de la herramienta xUnit. Mediante GitHub Actions, configuré un pipeline de CI que compila el código, ejecuta pruebas unitarias y valida la integración del código con cada cambio subido al proyecto, siguiendo las mejores prácticas de CI.
+En el ámbito del desarrollo de software moderno, la adopción de prácticas de Integración Continua (CI or Continuous Integration), Entrega Continua (CD or Continuous Delivery) y Despliegue Continuo (CDD or Continuous Deployment Delivery) es fundamental para automatizar el ciclo de vida del desarrollo de software, garantizar la calidad del código y facilitar la entrega rápida de nuevas funcionalidades y correcciones a los usuarios finales. En este trabajo, me centré en la implementación de la práctica de Integración Continua (CI) utilizando .NET para crear un programa sencillo complementado con pruebas unitarias a través de la herramienta xUnit. Mediante GitHub Actions, configuré un pipeline de CI que compila el código, ejecuta pruebas unitarias y valida la integración del código con cada cambio subido al proyecto, siguiendo las mejores prácticas de CI.
 
 La configuración actual de mi proyecto soporta la Integración Continua (CI), preparando automáticamente los cambios de código para su despliegue mediante la compilación del software y la ejecución de pruebas. Sin embargo, para avanzar hacia la Entrega Continua (CD) y el Despliegue Continuo (CDD), sería necesario implementar pasos adicionales:
 
@@ -83,6 +83,29 @@ Si la aplicación funciona correctamente en el entorno de prueba, el equipo de o
 * **Capacitar al personal:** Es importante capacitar al personal en el uso de las herramientas de CI/CD.
 * **Definir un proceso claro:** Es importante definir un proceso claro para el desarrollo e implementación de software.
 
+## Desafíos de Seguridad al Implementar CI/CD
+La implementación de CI/CD presenta desafíos de seguridad significativos, resaltados en el "Top 10 CI/CD Security Risks" de OWASP (The Open Worldwide Application Security Project). Cada uno de estos riesgos demanda atención cuidadosa para fortalecer las prácticas de seguridad en los pipelines de CI/CD.
+
+* Mecanismos de Control de Flujo Insuficientes (CICD-SEC-1): La ausencia de controles adecuados puede permitir que un atacante propague código o artefactos maliciosos sin revisión adicional o aprobación.
+
+* Gestión de Identidad y Acceso Inadecuada (CICD-SEC-2): La gestión inadecuada de identidades incrementa el riesgo y el potencial daño de un compromiso, debido a la complejidad y diversidad de los sistemas involucrados en el proceso de entrega de software.
+
+* Abuso de la Cadena de Dependencias (CICD-SEC-3): Atacantes pueden explotar la cadena de dependencias para ejecutar paquetes maliciosos, afectando las estaciones de trabajo de ingeniería y los entornos de construcción.
+
+* Ejecución de Pipeline Envenenada (PPE) (CICD-SEC-4): Atacantes pueden manipular el proceso de construcción, inyectando comandos maliciosos en la configuración del pipeline.
+
+* Controles de Acceso Basados en Pipeline Insuficientes (CICD-SEC-5): La ejecución de pipelines sin controles de acceso adecuados facilita el movimiento lateral de atacantes dentro o fuera del sistema CI/CD.
+
+* Higiene Insuficiente de Credenciales (CICD-SEC-6): La diversidad de sistemas y la complejidad en la gestión de accesos exige una estrategia robusta que asegure el principio de mínimo privilegio y la rotación regular de secretos.
+
+* Configuración Insegura del Sistema (CICD-SEC-7): Es crucial aplicar configuraciones seguras, parchear vulnerabilidades conocidas y emplear técnicas de endurecimiento para proteger los sistemas del entorno CI/CD.
+
+* Uso No Gobernado de Servicios de Terceros (CICD-SEC-8): La integración sin supervisión de servicios de terceros puede ampliar la superficie de ataque, introduciendo riesgos no anticipados.
+
+* Validación Inadecuada de la Integridad de los Artefactos (CICD-SEC-9): La implementación de firmas digitales, checksums y otros controles de integridad es esencial para asegurar que solo los artefactos auténticos avancen hacia la producción.
+
+* Insuficiente Registro y Visibilidad (CICD-SEC-10): La falta de un registro y monitoreo adecuados impide la detección oportuna de actividades maliciosas y complica las investigaciones de incidentes.
+
 ## Conclusión
 
 CI/CD es una práctica moderna de desarrollo de software que ofrece muchos beneficios. Es importante tener en cuenta los desafíos y las consideraciones al implementar CI/CD, pero los beneficios pueden ser significativos. CI/CD es una herramienta importante para las empresas que quieren mejorar la calidad del software, acelerar el tiempo de lanzamiento y aumentar la competitividad.
@@ -102,6 +125,7 @@ CI/CD es una práctica moderna de desarrollo de software que ofrece muchos benef
 * "Why You Should Implement CI/CD" por Microsoft
 * "How to Overcome the Challenges of CI/CD" por Microsoft
 * "The Importance of CI/CD in Software Engineering" por Microsoft
+* "OWASP Top 10 CI/CD Security Risks" por OWASP
 
 
 
